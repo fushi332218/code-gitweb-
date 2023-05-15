@@ -1,0 +1,64 @@
+.user-card {
+    width: 200px;
+    height: 67.69px;
+    background-color: #D9EAF7;
+    margin: 100px auto;
+    padding: 5px 6px 7px 7px;
+    box-sizing: border-box;
+}
+
+.user-card-head {
+    font-size: 12px;
+    color: #6A737C;
+    margin: 1px 0 4px 0;
+}
+
+.user-card-body-photo img {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.user-card-body-photo {
+    float: left;
+}
+
+.user-card-body-info {
+    float: left;
+    margin-left: 8px;
+}
+
+.user-card-body-info-username {
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 2px;
+}
+
+.user-card-body-info-username>a {
+    font-size: 13px;
+    color: #0074CC;
+    text-decoration: none;
+}
+
+.user-card-body-info-reputation {
+    font-size: 1em;
+    color: #838C95;
+    height: 14px;
+    line-height: 14px;
+}
+
+.user-card-body-info-reputate>span {
+    color: #6A737C;
+    font-weight: bold;
+}
+
+.user-card-body-info-reputate-item {
+    width: 6px;
+    height: 6px;
+    line-height: 6px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 1px 0 1px;
+    position: relative;
+    top: -2px;
+}
