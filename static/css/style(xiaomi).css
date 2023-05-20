@@ -78,6 +78,7 @@ div.container>div.head-shopping {
 }
 
 div.container>div.head-shopping:hover {
+    cursor: pointer;
     background-color: white;
     color: orangered;
 }
@@ -105,6 +106,7 @@ div.container>div.shopping-more {
 }
 
 div.container>div.head-href>a:hover {
+    cursor: pointer;
     color: white;
 }
 
@@ -547,6 +549,7 @@ div.secion2-right>a {
 }
 
 div.secion2-right>a:hover {
+    cursor: pointer;
     background-color: rgba(128, 128, 128, 0.2);
 }
 
@@ -637,6 +640,7 @@ div.secion3-left>div:nth-child(4)>div {
 }
 
 div.secion3-left>div>div:hover {
+    cursor: pointer;
     color: white;
 }
 
@@ -656,6 +660,7 @@ div.secion3-right>img {
 }
 
 div.secion3-right>img:hover {
+    cursor: pointer;
     box-shadow: 0 0 5px 1px #999;
     transition: 500ms;
 }
@@ -664,7 +669,7 @@ div.secion3-right>img:hover {
 div.body {
     clear: left;
     width: 1500px;
-    height: 4500px;
+    height: 1070px;
     background-color: rgba(245, 245, 245);
     position: relative;
     top: 30px;
@@ -700,6 +705,7 @@ div.body>div.body-body1>span:nth-child(2) {
 
 
 div.body>div.body-body1>span:nth-child(2):hover {
+    cursor: pointer;
     color: rgb(243, 97, 7);
     transition: 300ms;
 }
@@ -739,13 +745,12 @@ div.body>div.body-secion1>div.body-secion1-left>img {
 }
 
 div.body>div.body-secion1>div.body-secion1-left>img:hover {
+    cursor: pointer;
     position: relative;
     transition: 700ms;
     bottom: 2px;
     box-shadow: 0 0 5px 1px #999;
 }
-
-
 
 div.body>div.body-secion1>div.body-secion1-right {
     width: 1024px;
@@ -771,6 +776,7 @@ div.body>div.body-secion1>div.body-secion1-right>div>img {
 }
 
 div.body>div.body-secion1>div.body-secion1-right>div:hover {
+    cursor: pointer;
     position: relative;
     transition: 500ms;
     bottom: 2px;
@@ -783,7 +789,410 @@ div.body>div.body-footer {
     margin-left: 83px;
 }
 
-div.body>div.body-footer>img {
+div.footer {
+    width: 1500px;
+    height: 700px;
+}
+
+div.footer>div.footer-head {
     width: 1254px;
+    height: 115px;
+    margin-left: 83px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: #B0B0B0;
+}
+
+div.footer>div.footer-head>div {
+    width: 170px;
+    height: 20px;
+    background-color: white;
+    float: left;
+    margin-top: 60px;
+    margin-left: 80px;
+    border: 1px;
+    border-style: none solid none none;
+    border-color: #B0B0B0;
+    background-color: white;
+}
+
+div.footer>div.footer-head>div:nth-child(1) {
+    margin-left: 60px;
+}
+
+div.footer>div.footer-head>div:nth-child(5) {
+    border-style: unset;
+}
+
+div.footer>div.footer-head>div>span {
+    font-size: 15px;
+}
+
+div.footer>div.footer-head>div>span:hover {
+    cursor: pointer;
+    color: rgb(254, 89, 0);
+}
+
+div.footer>div.footer-body-left {
+    width: 983px;
+    height: 350px;
+    margin-left: 83px;
+    margin-top: 50px;
+    float: left;
+}
+
+div.footer>div.footer-body-right {
+    width: 271px;
     height: 100px;
+    float: left;
+    margin-top: 50px;
+    border: 1px;
+    border-style: none none none solid;
+    border-color: #B0B0B0;
+}
+
+div.footer>div.footer-body-left>div {
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-right: 60px;
+}
+
+div.footer>div.footer-body-left>div:nth-child(5) {
+    margin-right: unset;
+}
+
+div.footer>div.footer-body-left>div:nth-child(1) {
+    margin-left: 120px;
+}
+
+div.footer>div.footer-body-left>div:nth-child(1)>div>div {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(102, 96, 96);
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+div.footer>div.footer-body-left>div:nth-child(1)>div>div:hover {
+    cursor: pointer;
+    color: rgb(254, 89, 0);
+    cursor: pointer
+}
+
+div.footer>div.footer-body-left>div:nth-child(2)>div>div {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(102, 96, 96);
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+div.footer>div.footer-body-left>div:nth-child(2)>div>div:hover {
+    cursor: pointer;
+    color: rgb(254, 89, 0);
+    cursor: pointer
+}
+
+div.footer>div.footer-body-left>div:nth-child(3)>div>div {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(102, 96, 96);
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+div.footer>div.footer-body-left>div:nth-child(3)>div>div:hover {
+    cursor: pointer;
+    color: rgb(254, 89, 0);
+    cursor: pointer
+}
+
+div.footer>div.footer-body-left>div:nth-child(4)>div>div {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(102, 96, 96);
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+div.footer>div.footer-body-left>div:nth-child(4)>div>div:hover {
+    cursor: pointer;
+    color: rgb(254, 89, 0);
+    cursor: pointer
+}
+
+div.footer>div.footer-body-left>div:nth-child(5)>div>div {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(102, 96, 96);
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+div.footer>div.footer-body-left>div:nth-child(5)>div>div:hover {
+    cursor: pointer;
+    color: rgb(254, 89, 0);
+    cursor: pointer;
+}
+
+div.footer>div.footer-body-right>span.footer-body-right-1 {
+    font-size: 24px;
+    color: rgb(254, 89, 0);
+}
+
+div.footer>div.footer-body-right>span.footer-body-right-2 {
+    font-size: 14px;
+}
+
+div.footer>div.footer-body-right>div {
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 4px;
+    margin-left: 53px;
+    position: relative;
+    top: 7px;
+    font-size: 14px;
+    border: 1px solid rgb(254, 89, 0);
+    color: rgb(254, 89, 0);
+}
+
+div.footer>div.footer-body-right>div:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(254, 89, 0);
+    transition: 300ms;
+}
+
+div.footer>div.footer-footer {
+    clear: left;
+    width: 1500px;
+    height: 250px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+div.footer>div.footer-footer>div.footer-footer-body {
+    width: 1254px;
+    height: 180px;
+    margin-left: 83px;
+}
+
+div.footer>div.footer-footer>div.footer-footer-body>img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+div.footer>div.footer-footer>div.footer-footer-body>div.footer-footer-body-div {
+    width: 1184px;
+    height: 60px;
+    float: left;
+    box-sizing: border-box;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+div.footer>div.footer-footer>div.footer-footer-body>div.footer-footer-body-div>span:hover {
+    color: rgb(254, 89, 0);
+    cursor: pointer;
+}
+
+div.footer>div.footer-footer>div.footer-footer-body>div.footer-footer-body-div1 {
+    clear: left;
+    margin-left: 70px;
+    width: 1184px;
+    height: 120px;
+    position: relative;
+    bottom: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-left: 15px
+}
+
+div.footer>div.footer-footer>div.footer-footer-body>div.footer-footer-body-div1>img {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+}
+
+div.footer>div.footer-footer>img {
+    position: relative;
+    left: 530px;
+    top: 35px;
+}
+
+div.static-body {
+    z-index: 120;
+    width: 50px;
+    height: 240px;
+    position: fixed;
+    top: 800px;
+    right: 5px;
+}
+
+div.static-body>div {
+    width: 50px;
+    height: 60px;
+}
+
+div.static-body>div:nth-child(1) {
+    background-image: url(/static/images/aside/06.png);
+}
+
+div.static-body>div:nth-child(2) {
+    background-image: url(/static/images/aside/01.png);
+}
+
+div.static-body>div:nth-child(3) {
+    background-image: url(/static/images/aside/02.png);
+}
+
+div.static-body>div:nth-child(4) {
+    background-image: url(/static/images/aside/03.png);
+}
+
+div.static-body>div:nth-child(5) {
+    background-image: url(/static/images/aside/04.png);
+}
+
+
+div.static-body>div:nth-child(1)>div.static-body-1 {
+    overflow: hidden;
+    z-index: 120;
+    width: 130px;
+    height: 0px;
+    position: fixed;
+    top: 805px;
+    right: 70px;
+    background-color: white;
+}
+
+div.static-body>div:nth-child(1)>div.static-body-1>img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+div.static-body>div:nth-child(1):hover {
+    cursor: pointer;
+    background-image: url(/static/images/aside/0606.png);
+}
+
+div.static-body>div:nth-child(1):hover .static-body-1 {
+    z-index: 150;
+    height: 200px;
+}
+
+
+div.static-body>div:nth-child(2)>div {
+    overflow: hidden;
+    z-index: 120;
+    width: 75px;
+    height: 0px;
+    position: fixed;
+    top: 880px;
+    right: 60px;
+    background-color: white;
+}
+
+div.static-body>div:nth-child(2):hover {
+    cursor: pointer;
+    background-image: url(/static/images/aside/0101.png);
+}
+
+div.static-body>div:nth-child(2):hover div {
+    cursor: pointer;
+    height: 23px;
+}
+
+div.static-body>div:nth-child(3)>div {
+    overflow: hidden;
+    z-index: 120;
+    width: 75px;
+    height: 0px;
+    position: fixed;
+    top: 940px;
+    right: 60px;
+    background-color: white;
+}
+
+div.static-body>div:nth-child(3):hover {
+    cursor: pointer;
+    background-image: url(/static/images/aside/0202.png);
+}
+
+div.static-body>div:nth-child(3):hover div {
+    cursor: pointer;
+    height: 23px;
+}
+
+div.static-body>div:nth-child(4)>div {
+    overflow: hidden;
+    z-index: 120;
+    width: 75px;
+    height: 0px;
+    position: fixed;
+    top: 1000px;
+    right: 60px;
+    background-color: white;
+}
+
+div.static-body>div:nth-child(4):hover {
+    background-image: url(/static/images/aside/0303.png);
+    cursor: pointer;
+}
+
+div.static-body>div:nth-child(4):hover div {
+    height: 23px;
+    cursor: pointer;
+}
+
+
+div.static-body>div:nth-child(5)>div {
+    overflow: hidden;
+    z-index: 120;
+    width: 75px;
+    height: 0px;
+    position: fixed;
+    top: 1060px;
+    right: 60px;
+    background-color: white;
+}
+
+div.static-body>div:nth-child(5):hover {
+    background-image: url(/static/images/aside/0404.png);
+    cursor: pointer;
+}
+
+div.static-body>div:nth-child(5):hover div {
+    height: 23px;
+}
+
+
+div.go-start {
+    width: 30px;
+    height: 30px;
+    background-image: url(/static/images/aside/05.png);
+    position: fixed;
+    top: 1120px;
+    right: 10px;
+}
+
+div.go-start:hover {
+    background-image: url(/static/images/aside/0505.png);
+}
+
+a.go-start-a {
+    position: flxed;
+    position: fixed;
+    top: 1104px;
+    right: 13px;
 }
