@@ -193,17 +193,17 @@ export class Player extends GameObject {
 
 
     render() {
-        // this.ctx.fillStyle = 'blue';
-        // this.ctx.fillRect(this.x, this.y, this.width, this.height);
+        this.ctx.fillStyle = 'blue';
+        this.ctx.fillRect(this.x, this.y, this.width, this.height);
 
-        // if (this.dirction > 0) {
-        //     this.ctx.fillStyle = 'red';
-        //     this.ctx.fillRect(this.x + 120, this.y + 40, 100, 20);
-        // }
-        // else {
-        //     this.ctx.fillStyle = 'red';
-        //     this.ctx.fillRect(this.x + this.width - 120 - 100, this.y + 40, 100, 20);
-        // }
+        if (this.dirction > 0) {
+            this.ctx.fillStyle = 'red';
+            this.ctx.fillRect(this.x + 120, this.y + 40, 100, 20);
+        }
+        else {
+            this.ctx.fillStyle = 'red';
+            this.ctx.fillRect(this.x + this.width - 120 - 100, this.y + 40, 100, 20);
+        }
 
         let status = this.status;
 
