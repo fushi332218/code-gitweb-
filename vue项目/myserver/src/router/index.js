@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue'
-import LoginView from '../views/LoginView.vue'
-import NotFoundView from '../views/NotFoundView.vue'
-import RegisterView from '../views/RegisterView.vue'
-import UserListView from '../views/UserListView.vue'
-import UserProfileView from '../views/UserProfileView.vue'
+import LoginView from '../views/LoginView'
+import NotFoundView from '../views/NotFoundView'
+import RegisterView from '../views/RegisterView'
+import UserListView from '../views/UserListView'
+import UserProfileView from '../views/UserProfileView'
 
 const routes = [
     {
@@ -13,7 +13,7 @@ const routes = [
         component: HomeView
     },
     {
-        path: '/userlist',
+        path: '/userlist/',
         name: 'userlist',
         component: LoginView,
     },
@@ -23,25 +23,34 @@ const routes = [
         component: UserListView,
     },
     {
-        path: '/userprofile',
+        path: '/userprofile/',
         name: 'userprofile',
         component: UserProfileView,
     },
     {
-        path: '/login',
+        path: '/userprofile/:userId/',
+        name: 'userprofile',
+        component: UserProfileView
+    },
+    {
+        path: '/login/',
         name: 'login',
         component: LoginView,
     },
     {
-        path: '/register',
+        path: '/register/',
         name: 'register',
         component: RegisterView,
     },
     {
-        path: '/404',
+        path: '/404/',
         name: '404',
         component: NotFoundView,
     },
+    {
+        path: '/:catchAll(.*)',
+        redirect: "/404/"
+    }
 ]
 
 const router = createRouter ({
